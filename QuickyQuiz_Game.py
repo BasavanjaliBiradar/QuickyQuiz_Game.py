@@ -5,10 +5,10 @@ playing=input("Do you want to play? ")
 if playing.lower() != "yes":
     quit()
 print("okay!!!, let's play :) ")
-print("\U0001F600")
-print("hi my nam eis qickoo","\N{grinning face}")
-sat=input("Here comes the first question!press Enter key , \U0001F44D " )
+# print("\U0001F600")
+print("hi my name is qickoo","\N{grinning face}")
 
+sat=input("Here comes the first question!press Enter key , \U0001F44D " )
 Answer=input("1.What country has the highest life expectancy? \n(a)Hong Kong \n(b)Srilanka \n(c)India \n(d)China \nEnter your answer option ")
 if Answer.lower() == "a":
     print("correct!!  ,\U0001F917 ")
